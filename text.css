@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#column{
+    background-color: brown;
+    height: 100vh;
+    width: 120px;
+    position: relative;
+    left: 0;
+}
+.tranfrom{
+    transform: translateX(-120px);
+    transition: all 1s 
+}
+.tranfroms{
+    transform: translateX(5px);
+    transition: all 1s 
+}
+.con{
+    position: absolute;
+    cursor: pointer;
+}

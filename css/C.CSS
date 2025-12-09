@@ -1,0 +1,23 @@
+.div{
+    display: block;
+    padding: 10px;
+    background-color: gray;
+    text-align: center;
+    color:white;
+    width: 100px;
+    transition-duration: 0.8s;
+
+
+}
+.div:hover{
+    transform: translateX(100px);
+    background-color: rgb(41, 132, 223)  ;
+    cursor: pointer;
+}
+.container{
+    width:  600px;
+    height: 600px;
+    border: 2px solid  black;
+    position: relative   ;
+
+}

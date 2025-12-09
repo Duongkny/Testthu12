@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #ccc;
+}
+.nav{
+    min-height: 42px;
+    background-color:#EF5122;
+    display: flex;
+    justify-content:space-between;
+}
+.nav-list{
+    padding-left:0 ;
+    margin: auto  16px;
+}
+.nav-item{
+    display:inline;
+    color: #fff;
+    list-style: none;
+    margin: 8px;
+    cursor: pointer;
+
+}
+.form-container{
+    max-width: 720px;
+    background-color: #fff;
+    padding: 32px;
+    margin: 36px auto;
+}
+.form-row{
+    display: flex;
+    padding: 8px 0;
+}
+.form-label{
+    min-width: 90px;
+}
+.form-input{
+    flex:1;
+}
+.column-layout{
+    display: flex;
+    background-color: #fff;
+    padding: 12px;
+    margin: 36px ;
+}
+.column-item{
+    padding: 16px ;
+}
+.sidebar-one{
+    flex: 1;
+}
+.sidebar-two{
+    flex: 1;
+}
+.main-column{
+    flex: 3;
+}
+.feature-layout{
+    margin: 36px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.freature-item{
+    padding: 12px 16px;
+    margin-top: 16px;
+    flex-basis: 30%;
+}
+.freature-item:nth-child(1){
+    background-color:  rgb(192, 227, 222);
+}
+.freature-item:nth-child(2){
+    background-color: rgb(227, 200, 192);
+}
+.freature-item:nth-child(3){
+    background-color: rgb(226, 192, 227);
+}
+.wrap-layout{
+    display: flex;
+    background-color: #fff;
+    margin-top: 36px;
+    padding: 12px 0 32px 0;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+.wrap-layout__item{
+    width: 148px;
+    height: 90px;
+    background-color: #EF5122;
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    line-height: 90px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.center-layout{
+    display: flex;
+    background-color:  rgb(192, 227, 194);
+    max-width: 640px;
+    height: 360px;
+    margin: 36px auto 0 auto;
+    padding: 32px 0;
+}
+.center-layout__item{
+    font-size: 42px;
+    font-weight: 700;
+    margin: auto;
+}
+.chart-layout {
+    margin: 36px auto 0 auto;
+    padding: 32px 0;
+    height: 320px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.chart-layout__item {
+    align-self: flex-end;
+    width: 60px;
+    color: #fff;
+    text-align: center;
+    height: var(--percent);
+    background-color: #EF5122;
+    animation: growth ease-in 0.5s;
+}
